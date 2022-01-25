@@ -1,0 +1,38 @@
+@media(max-width:780px){
+ .container{
+     width: 90%;
+ }
+ .gallaryitem{
+    flex-direction: column;
+}
+.gallaryitem img{
+    width: 100%;
+}
+.gallaryitem:nth-child(2){
+    flex-direction: column-reverse;
+}
+figure img{
+    width: 90%;
+}
+}
+@media(max-width:400px){
+    .slogan{
+        padding: 125px 0;
+    }
+    h1{
+        font-size: 30px;
+    }
+    h2{
+        font-size: 26px;
+    }
+    h3{
+        font-size: 22px;
+    }
+
+    .number{
+        flex-direction: column;
+    }
+    .footercontent h3{
+        font-size: 15px;
+    }
+}
